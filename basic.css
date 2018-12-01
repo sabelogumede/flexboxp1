@@ -1,0 +1,122 @@
+/* basic styles */
+html, body {
+    margin: 0;
+}
+html {
+    background: #2c3e50;
+}
+body {
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+    line-height: 1.6;
+    text-align: center;
+    height: 300px;
+}
+
+.flex-container {
+    margin: 1em 0;
+    border: 1px solid white;
+    height: 400px;
+}
+
+.flex-items {
+    border: 2px solid red;
+    /* height: 100px; */
+}
+
+h1, h2, h3 {
+    color: white;
+    margin: 0;
+    line-height: 1;
+    font-family: 'Asap', sans-serif;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 4em;
+}
+h3 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+p {
+    font-size: 1.5em;
+}
+
+/* Flexbox staff  */
+
+.flex-container {
+    /* height: 300px; */
+    /* width: 400px; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+    
+
+    /* align-content: center; */
+    /* align-content: start; */
+    /* align-content: flex-end; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* flex-flow: row; */
+    /* flex-flow: row-reverse; */
+    /* flex-flow: column; */
+    /* flex-flow: column-reverse; */
+
+
+}
+
+.flex-items {
+    /* flex-grow: 1; */
+    /* width: 300px; */
+    /* flex-shrink: 0; */
+    /* flex-basis: 0; */
+    /* flex: grom, shrink, basis */
+    flex: 1 1 0;
+
+
+}
+
+.flex-item-1 {
+    /* align-self: stretch; */
+    /* order: 4; */
+    /* background-color: blue; */
+}
+
+.flex-item-2 {
+    /* align-self: center; */
+    /* order: 3; */
+    /* background-color: green; */
+    /* flex-shrink: 10 */
+    /* flex-basis: 300px; */
+}
+
+.flex-item-3 {
+    /* align-self: flex-end; */
+    /* order: 2; */
+    /* flex-grow: 2; */
+}
+
+.flex-item-4 {
+    /* align-self: flex-start; */
+    /* order: 1; */
+}
